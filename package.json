@@ -10,17 +10,21 @@
     "stylelint": "stylelint \"**/*.css\" --fix"
   },
   "dependencies": {
+    "classnames": "^2.5.1",
     "next": "14.1.0",
     "react": "^18",
     "react-dom": "^18"
   },
   "devDependencies": {
+    "@svgr/webpack": "^8.1.0",
+    "@types/classnames": "latest",
     "@types/node": "^20",
     "@types/react": "^18",
-    "@types/react-dom": "^18",
     "@typescript-eslint/eslint-plugin": "^6.19.1",
     "@typescript-eslint/parser": "^6.19.1",
     "eslint": "^8.56.0",
+    "eslint-plugin-react-hooks": "latest",
+    "husky": "latest",
     "stylelint": "^16.2.0",
     "stylelint-config-standard": "^36.0.0",
     "stylelint-order": "^4.1.0",
